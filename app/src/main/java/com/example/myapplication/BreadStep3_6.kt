@@ -12,7 +12,7 @@ import android.widget.ImageButton
 class BreadStep3_6 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_bread_step34)
+        setContentView(R.layout.activity_bread_step36)
 
         val nextPageBtn = findViewById<View>(R.id.button) as Button
         nextPageBtn.setOnClickListener{
