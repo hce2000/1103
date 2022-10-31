@@ -17,7 +17,7 @@ class BreadStep3_4 : AppCompatActivity() {
         val nextPageBtn = findViewById<View>(R.id.button) as Button
         nextPageBtn.setOnClickListener{
             val intent = Intent()
-            intent.setClass(this@BreadStep3_4, BreadStep3_5::class.java)
+            intent.setClass(this@BreadStep3_4, CookieStep2_0::class.java)
             startActivity(intent)
         }
         val itemBtn = findViewById<View>(R.id.button0) as Button
