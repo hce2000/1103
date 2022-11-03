@@ -15,12 +15,12 @@
         android:id="@+id/txv"
         android:layout_width="match_parent"
         android:layout_height="60sp"
-        android:gravity="center"
+        android:background="#3EE40000"
 
+        android:gravity="center"
         android:text="烘焙辨識結果"
-        android:textSize="20sp"
         android:textColor="#ffffff00"
-        android:background="#330000ff"
+        android:textSize="20sp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

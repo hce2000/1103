@@ -29,7 +29,7 @@ class CookieStep2_1 : AppCompatActivity() {
         //聲音在這裡
         var voice = findViewById<ImageButton>(R.id.imageButton)
         var sp = SoundPool(10, AudioManager.STREAM_SYSTEM, 5)
-        var music = sp.load(this, R.raw.healthy1, 1)
+        var music = sp.load(this, R.raw.pineapplebread6, 1)
         voice.setOnClickListener(View.OnClickListener { sp.play(music, 1f, 1f, 0, 0, 1f) })
     }
 }

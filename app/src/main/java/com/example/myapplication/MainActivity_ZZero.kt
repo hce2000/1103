@@ -28,7 +28,7 @@ class MainActivity_ZZero : AppCompatActivity() {
         img = findViewById(R.id.img)
         GlideApp.with(this)
             .asBitmap()
-            .load(R.drawable.bkg)
+            .load(R.drawable.bgc01)
             .into(object : CustomTarget<Bitmap>() {
                 override fun onResourceReady(resource: Bitmap,
                                              transition: com.bumptech.glide.request.transition.Transition<in Bitmap>?) {
@@ -44,7 +44,12 @@ class MainActivity_ZZero : AppCompatActivity() {
 
 
 
-
+        val nextPageBtn7 = findViewById<View>(R.id.button7) as Button
+        nextPageBtn7.setOnClickListener {
+            val intent = Intent()
+            intent.setClass(this@MainActivity_ZZero, MainActivity::class.java)
+            startActivity(intent)
+        }
 
         val nextPageBtn = findViewById<View>(R.id.button4) as ImageButton
         nextPageBtn.setOnClickListener {

@@ -75,7 +75,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity_ZZero"
+            android:name=".MainActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -223,7 +223,7 @@
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity_ZZero"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
